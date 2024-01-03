@@ -8,10 +8,8 @@ This web application makes use of CSS Styling, creating layouts and pages, routi
 ## Usage / Installation
 If you would like to see the completed website, clone or fork the project. In your terminal in the root of the project, run `npm i` to download all packages. Then type in `npm run dev` and open up http://localhost:3000/. You won't be able to login without setting up a database and adding a secret key (see [Putting Data into the Database](#putting-data-into-the-database)).  
 
-
-
 ## Putting Data into the Database
-If you would like to see data on the website, you will have to connect to a database. Although you could do this through any provider, I recommend doing this through Vercel-Postgres since Vercel created Next.js. You can learn about setting up your database here: https://nextjs.org/learn/dashboard-app/setting-up-your-database (a chapter in Vercel's tutorial). 
+To login and add/edit data on the website, you will have to connect to a database. Although you could do this through any provider, I recommend doing this through Vercel-Postgres since Vercel created Next.js. (It's also already coded to use this in the completed project). You can learn about setting up your database here: https://nextjs.org/learn/dashboard-app/setting-up-your-database (a chapter in Vercel's tutorial). 
 
 Once you have done that, you can then seed the data by running `npm run seed`.
 
